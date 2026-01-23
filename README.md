@@ -42,24 +42,8 @@ The system consists of four major learning stages:
 - A fusion classifier is trained analytically
 - Multiple subnetworks are combined using ensemble averaging
 
----
 
-## 📊 Dataset
 
-- **MNIST Handwritten Digit Dataset**
-- 70,000 grayscale images (28×28)
-- 10 classes (digits 0–9)
-- Labels are converted from scalar form to **bipolar one-hot vectors (-1, +1)** for pseudoinverse learning
-
----
-
-## 📈 Results
-
-- **Test Accuracy:** ~99% on MNIST
-- Fast convergence due to analytical learning
-- Stable training without hyperparameter tuning
-
----
 
 ## 📂 Repository Structure
 

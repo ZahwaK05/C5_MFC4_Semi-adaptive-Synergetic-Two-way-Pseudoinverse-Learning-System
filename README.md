@@ -1,8 +1,16 @@
-## Team members :
--Annem Sai reddy : cb.sc.u4aie24205
--Devana madhavan nambiar : cb.sc.u4aie24213
--Tharappel Manas : cb.sc.u4aie24257
--Zahwa K : cb.sc.u4aie24261
+## Team Members:
+
+Annem Sai Reddy  
+CB.SC.U4AIE24205  
+
+Devana Madhavan Nambiar  
+CB.SC.U4AIE24213  
+
+Tharappel Manas  
+CB.SC.U4AIE24257  
+
+Zahwa K  
+CB.SC.U4AIE24261  
 
   Base paper : https://arxiv.org/pdf/2406.18931 
 ## Project Outline : 

@@ -1,49 +1,59 @@
-# Semi-Adaptive Synergetic Two-Way Pseudoinverse Learning System
+## Team members :
+Annem Sai reddy : cb.sc.u4aie24205
+Devana madhavan nambiar : cb.sc.u4aie24213
+Tharappel Manas : cb.sc.u4aie24257
+Zahwa K : cb.sc.u4aie24261
 
-This repository implements a **deep learning framework without gradient descent**, based entirely on **pseudoinverse learning**.  
-The proposed system performs **forward learning, backward learning, feature fusion, and ensemble learning** using **closed-form analytical solutions** instead of backpropagation.
+  Base paper : https://arxiv.org/pdf/2406.18931 
+## Project Outline : 
 
-The framework is designed for **fast, stable, and globally optimal training**, and is experimentally validated on the **MNIST handwritten digit dataset**.
+This project implements a Semi-adaptive Synergetic Two-way Pseudoinverse Learning System (SLS-TPLS) as a non-gradient deep learning framework. The primary goal of the project is to overcome the limitations of traditional gradient-descent–based deep learning methods, such as high training time, difficulty in hyperparameter tuning, and fixed network architecture.
 
----
+The system is built using multiple synergetic subsystems, where each subsystem contains:
 
-## 🚀 Key Contributions
+Forward learning module using stacked Pseudoinverse Learning Autoencoders (PILAE)
 
-- ✅ Deep learning **without backpropagation**
-- ✅ Closed-form training using **pseudoinverse**
-- ✅ **Two-way learning** (forward + backward)
-- ✅ **Feature fusion** of input-driven and label-driven representations
-- ✅ **Ensemble learning** for improved robustness
-- ✅ High accuracy with low computational complexity
+Backward learning module that propagates label information backward through the network
 
----
+Feature fusion module that concatenates forward and backward learned features
 
-## 🧠 Method Overview
+Each subsystem operates independently on sampled data and is trained using non-gradient optimization techniques such as pseudoinverse computation and FISTA. The architecture of the network is semi-adaptive, meaning the depth of the model is determined automatically using an early stopping strategy instead of manual tuning.
 
-The system consists of four major learning stages:
+The outputs from all subsystems are combined to form a robust and efficient learning system that achieves high classification accuracy while significantly reducing training time.
+## Project Update 
 
-### 1. Forward Learning (PILAE)
-- Uses **Pseudoinverse Learning Autoencoders (PILAE)**
-- Extracts hierarchical features layer by layer
-- Encoder and decoder weights are computed analytically
 
-### 2. Classification (SHLNN)
-- A **Single Hidden Layer Neural Network**
-- Output weights are computed using a closed-form least squares solution
-- No learning rate, epochs, or gradient descent
+Implemented a semi-adaptive synergetic two-way pseudoinverse learning model
 
-### 3. Backward Learning
-- Propagates **label information backward** into hidden layers
-- Uses **inverse activation functions** and regularized pseudoinverse
-- Refines feature representations with class-discriminative information
+Used forward and backward learning without gradient descent
 
-### 4. Feature Fusion & Ensemble Learning
-- Forward and backward features are concatenated
-- A fusion classifier is trained analytically
-- Multiple subnetworks are combined using ensemble averaging
+Applied the model on the MNIST dataset
+
+Evaluated performance based on classification accuracy and efficiency
 
 
 
 
-## 📂 Repository Structure
+## Challenges / Issues Faced
 
+Understanding the theoretical concepts of non-gradient pseudoinverse learning was initially challenging
+
+Implementing forward and backward learning without backpropagation required careful handling of matrix dimensions
+
+Managing numerical stability and memory usage during pseudoinverse computations
+
+Debugging inconsistent results across different datasets and parameter settings
+
+
+
+## Future plans
+
+Future Work
+
+Implement new methods in the feature fusion module
+
+Increase the number of neurons to improve learning capacity
+
+Apply the model to more datasets
+
+Test the system using different hyperparameter settings

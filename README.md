@@ -70,6 +70,7 @@ Test the system using different hyperparameter settings
 
 ## folder structure
 
+<pre>
 C5_MFC4_Semi-adaptive-Synergetic-Two-way-Pseudoinverse-Learning-System/
 ├── CODE/
 │   ├── Dataset/
@@ -88,5 +89,6 @@ C5_MFC4_Semi-adaptive-Synergetic-Two-way-Pseudoinverse-Learning-System/
 │   └── test_SHLNN.m
 ├── README.md
 └── .git/
+</pre>
 
 

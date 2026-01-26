@@ -68,6 +68,8 @@ Apply the model to more datasets
 
 Test the system using different hyperparameter settings
 
+## folder structure
+
 C5_MFC4_Semi-adaptive-Synergetic-Two-way-Pseudoinverse-Learning-System/
 ├── CODE/
 │   ├── Dataset/
@@ -86,4 +88,5 @@ C5_MFC4_Semi-adaptive-Synergetic-Two-way-Pseudoinverse-Learning-System/
 │   └── test_SHLNN.m
 ├── README.md
 └── .git/
+
 

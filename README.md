@@ -12,6 +12,8 @@ CB.SC.U4AIE24257
 Zahwa K  
 CB.SC.U4AIE24261  
 
+## Semi-adaptive Synergetic Two-way Pseudoinverse Learning System
+
   Base paper : https://arxiv.org/pdf/2406.18931 
 ## Project Outline : 
 

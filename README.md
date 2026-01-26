@@ -12,6 +12,8 @@ CB.SC.U4AIE24257
 Zahwa K  
 CB.SC.U4AIE24261  
 
+## Semi-adaptive Synergetic Two-way Pseudoinverse Learning System
+
   Base paper : https://arxiv.org/pdf/2406.18931 
 ## Project Outline : 
 
@@ -68,4 +70,24 @@ Test the system using different hyperparameter settings
 
 
 ## folder structure
-<pre> C5_MFC4_Semi-adaptive-Synergetic-Two-way-Pseudoinverse-Learning-System/ ├── CODE/ │ ├── Dataset/ │ │ ├── mnistX.mat │ │ └── mnistnumY.mat │ ├── ActivationFunc.m │ ├── DeactivationFunc.m │ ├── calculateWeights4AE.m │ ├── finetunning.m │ ├── fusionnet.m │ ├── initInputWeight.m │ ├── PILAE.m │ ├── S2WPILS_demo_MNIST.m │ ├── targetPrepro.m │ ├── train_SHLNN.m │ └── test_SHLNN.m ├── README.md └── .git/ </pre>
+C5_MFC4_Semi-adaptive-Synergetic-Two-way-Pseudoinverse-Learning-System/
+│
+├── CODE/
+│   ├── Dataset/
+│   │   ├── mnistX.mat
+│   │   └── mnistnumY.mat
+│   │
+│   ├── ActivationFunc.m
+│   ├── DeactivationFunc.m
+│   ├── calculateWeights4AE.m
+│   ├── finetunning.m
+│   ├── fusionnet.m
+│   ├── initInputWeight.m
+│   ├── PILAE.m
+│   ├── S2WPILS_demo_MNIST.m
+│   ├── targetPrepro.m
+│   ├── train_SHLNN.m
+│   └── test_SHLNN.m
+│
+├── README.md
+└── .git/

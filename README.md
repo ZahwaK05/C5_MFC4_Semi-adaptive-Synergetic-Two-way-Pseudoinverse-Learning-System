@@ -65,3 +65,26 @@ Increase the number of neurons to improve learning capacity
 Apply the model to more datasets
 
 Test the system using different hyperparameter settings
+
+
+## folder structure
+C5_MFC4_Semi-adaptive-Synergetic-Two-way-Pseudoinverse-Learning-System/
+│
+├── CODE/
+│ ├── Dataset/
+│ │ ├── mnistX.mat
+│ │ └── mnistnumY.mat
+│ ├── ActivationFunc.m
+│ ├── DeactivationFunc.m
+│ ├── calculateWeights4AE.m
+│ ├── finetunning.m
+│ ├── fusionnet.m
+│ ├── initInputWeight.m
+│ ├── PILAE.m
+│ ├── S2WPILS_demo_MNIST.m
+│ ├── targetPrepro.m
+│ ├── train_SHLNN.m
+│ └── test_SHLNN.m
+│
+├── README.md
+└── .git/

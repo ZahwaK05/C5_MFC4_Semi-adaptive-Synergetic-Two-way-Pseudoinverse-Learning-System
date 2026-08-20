@@ -82,13 +82,13 @@ The model decides its own depth — no human picks the number of layers.
 
 ---
 
-### Synergetic — Ensemble of Subsystems
+## Synergetic — Ensemble of Subsystems
 
 Each subsystem sees a **different random 80%** of the data and therefore learns slightly different features. Their output score matrices are **summed element-wise** to produce a more robust final answer.
 
 ---
 
-### Two-way — Forward and Backward
+## Two-way — Forward and Backward
 
 | Direction | Input | What it extracts |
 |---|---|---|
@@ -147,7 +147,7 @@ The four main stages:
 1. **Forward PILAE Stack** — stacked pseudoinverse autoencoders extract structural features layer by layer
 2. **Sparse Weight Solver** — FISTA or ADMM regularises decoder weights for sparsity
 3. **Backward Learning** — labels are injected backwards to extract class-discriminative features
-4. **Feature Fusion + Classifier** — forward and backward features are concatenated, then a final pseudoinverse classifier is trained
+4. **Feature Fusion + Classifier** — forward features and backward features are concatenated, then a final pseudoinverse classifier is trained
 
 ---
 
